@@ -1,0 +1,6 @@
+sector: 0
+planet: octavia
+captureWave: 20
+difficulty: 2
+research: core-mini
+alwaysUnlocked: true
