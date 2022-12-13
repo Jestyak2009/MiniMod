@@ -1,0 +1,8 @@
+type: Wall
+health: 25
+category: defense
+requirements: [
+  magnesium/6
+]
+research: core-mini
+researchCostMultiplier: 0.5
