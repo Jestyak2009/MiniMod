@@ -1,0 +1,8 @@
+type: Duct
+health: 2
+requirements: [
+  magnesium/1
+]
+category: distribution
+research: core-mini
+researchCostMultiplier: 0.1
