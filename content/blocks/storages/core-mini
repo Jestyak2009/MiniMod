@@ -1,0 +1,18 @@
+Type: CoreBlock
+health: 100
+itemCapacity: 200
+size: 2
+category: effect
+unitType: test-unit
+unitCapModifier: 4
+thrusterLength: 15
+requirements: [
+  magnesium/100
+]
+research: {
+    root: true
+    name: octavia
+    requiresUnlock: false
+    planet: octavia
+}
+alwaysUnlocked: true
