@@ -1,0 +1,37 @@
+type: ItemTurret
+reload: 25
+shootCone: 25
+rotateSpeed: 5
+targetGround: false
+targetAir: true
+range: 250
+recoil: 1.5
+size: 3
+health: 35
+AmmoPerShot: 1
+shootSound: pew
+shootShake: 1
+shootY: 0
+outlineColor: 000000
+
+shoot: {
+    type: shootSpread
+    shots: 20
+    spread: 16
+    shotDelay: 1
+}
+
+ammoTypes: {
+    magnesium: {
+        damage: 5
+        speed: 6
+        height: 15
+        width: 10
+        lifetime: 40
+    }
+}
+requirements: [
+    magnesium/25
+]
+category: turret
+research: test
