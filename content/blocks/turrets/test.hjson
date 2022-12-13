@@ -1,0 +1,36 @@
+type: ItemTurret
+reload: 45
+shootCone: 20
+rotateSpeed: 10
+targetGround: true
+targetAir: true
+range: 120
+recoil: 1.3
+size: 2
+health: 20
+AmmoPerShot: 1
+shootSound: shootBig
+shootShake: 1
+shootY: 3
+outlineColor: 000000
+
+shoot: {
+    shots: 4
+    spread: 0
+    shotDelay: 3
+}
+
+ammoTypes: {
+    magnesium: {
+        damage: 1
+        speed: 6
+        height: 15
+        width: 10
+        lifetime: 20
+    }
+}
+requirements: [
+    magnesium/10
+]
+category: turret
+research: core-mini
