@@ -1,0 +1,12 @@
+type: Drill
+size: 1
+health: 15
+drillTime: 500
+tier: 1
+rotateSpeed: 2
+category: production
+research: core-mini
+researchCostMultiplier: 0.1
+requirements: [
+  magnesium/10
+]
