@@ -29,6 +29,7 @@ sectorSeed: 0
 bloom: false
 visible: true
 atmosphereColor: d7ff7c
+icon: octavia
 iconColor: 323a19
 hasAtmosphere: true
 allowSectorInvasion: false
