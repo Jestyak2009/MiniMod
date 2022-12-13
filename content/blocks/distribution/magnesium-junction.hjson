@@ -1,0 +1,9 @@
+type: Junction
+health: 2
+speed: 3
+capacity: 4
+requirements: [
+  magnesium/2
+] 
+category: distribution
+research: magnesium-duct

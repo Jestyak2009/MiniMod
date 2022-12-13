@@ -1,0 +1,9 @@
+type: Router
+health: 2
+speed: 3
+capacity: 4
+requirements: [
+  magnesium/3
+] 
+category: distribution
+research: magnesium-junction
