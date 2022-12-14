@@ -14,4 +14,4 @@ Planets - 1
 
 Schematics - 1
 
-Blocks - 7
+Blocks - 10
