@@ -1,0 +1,11 @@
+type: Pump
+size: 1
+pumpAmount: 0.05
+squareSprite: false
+placeableLiquid: true
+liquidCapacity: 5
+requirements: [
+    magnesium/45
+]
+category: liquid
+research: core-mini
