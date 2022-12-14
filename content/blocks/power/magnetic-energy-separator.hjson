@@ -1,0 +1,44 @@
+type: ConsumeGenerator
+size: 2
+powerProduction: 1
+consumes: {
+    items: [
+        magnesium/1
+    ]
+    liquids: [
+        water/1
+    ]
+}
+requirements: [
+    magnesium/75
+]
+category: power
+research: router
+parent: core-shard
+drawer: {
+    type: DrawMulti
+    drawers: [
+        {
+            type: DrawDefault
+        }
+        {
+            type: DrawRegion
+            suffix: -bottom
+        }
+        {
+            type: DrawRegion
+            spinSprite: true
+            rotateSpeed: 4
+            suffix: -rotator
+        }
+        {
+            type: DrawRegion
+            suffix: -top
+        }
+        {
+            type: DrawGlowRegion
+            suffix: -glow
+            color: ff6ef8
+        }
+    ]
+}
