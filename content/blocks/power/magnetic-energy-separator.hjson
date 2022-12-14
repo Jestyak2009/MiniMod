@@ -13,8 +13,8 @@ requirements: [
     magnesium/75
 ]
 category: power
-research: router
-parent: core-shard
+research: magnesium-router
+parent: core-mini
 drawer: {
     type: DrawMulti
     drawers: [
