@@ -1,6 +1,6 @@
 Type: CoreBlock
-health: 100
-itemCapacity: 200
+health: 250
+itemCapacity: 500
 size: 2
 category: effect
 unitType: test-unit
