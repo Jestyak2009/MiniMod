@@ -1,0 +1,11 @@
+type: PowerNode
+health: 10
+laserRange: 1
+laserColor1: a488eb
+laserColor2: 5c5e9e
+maxNodes: 5
+requirements: [
+    magnesium/10
+]
+category: power
+research: magnetic-energy-separatror
