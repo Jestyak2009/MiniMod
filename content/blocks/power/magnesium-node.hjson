@@ -1,6 +1,6 @@
 type: PowerNode
 health: 10
-laserRange: 1
+laserRange: 5
 laserColor1: a488eb
 laserColor2: 5c5e9e
 maxNodes: 5
