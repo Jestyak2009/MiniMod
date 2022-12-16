@@ -23,7 +23,7 @@ shoot: {
 
 ammoTypes: {
     magnesium: {
-        damage: 5
+        damage: 10
         speed: 6
         height: 15
         width: 10
