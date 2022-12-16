@@ -1,5 +1,5 @@
 type: Wall
-health: 25
+health: 75
 category: defense
 requirements: [
   magnesium/6
