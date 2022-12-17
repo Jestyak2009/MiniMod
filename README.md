@@ -4,7 +4,7 @@ Mindustry
 
 Mod adds: 
 
-Units - 1
+Units - 2
 
 Items - 1
 
