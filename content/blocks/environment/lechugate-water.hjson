@@ -1,0 +1,4 @@
+type: ShallowLiquid
+liquidDrop: water
+isLiquid: true
+cacheLayer: water
