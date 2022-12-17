@@ -1,6 +1,7 @@
 speed: 3
 accel: 0.1
 drag: 0.05
+hitSize: 5
 flying: true
 health: 15
 engineOffset: 2
