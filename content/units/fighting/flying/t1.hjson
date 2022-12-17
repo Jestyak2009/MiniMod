@@ -1,0 +1,18 @@
+speed: 3
+accel: 0.1
+drag: 0.05
+flying: true
+health: 15
+engineOffset: 2
+itemCapacity: 5
+weapons: [
+  {
+    y: 0
+    x: 1
+    reload: 20f;
+    bullet: { 
+      speed: 2.5
+      lifetime: 45
+    }
+  }
+]
