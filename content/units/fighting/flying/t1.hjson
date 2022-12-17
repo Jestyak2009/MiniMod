@@ -12,7 +12,7 @@ weapons: [
     x: 1
     reload: 10
     bullet: { 
-      damege: 4
+      damege: 2
       speed: 2.5
       lifetime: 45
       frontColor: 80a8ff
