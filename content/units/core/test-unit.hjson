@@ -29,8 +29,6 @@ weapons: [
     targetBuildings: true
     autoTarget: false
     controllable: true
-    laserColor: team
-    healColor: team
 
     bullet: {
       maxRange: 60
