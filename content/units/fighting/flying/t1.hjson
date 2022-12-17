@@ -5,6 +5,7 @@ flying: true
 health: 15
 engineOffset: 2
 itemCapacity: 5
+outlineColor: 000000
 weapons: [
   {
     y: 0
