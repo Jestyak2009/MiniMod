@@ -9,7 +9,7 @@ weapons: [
   {
     y: 0
     x: 1
-    reload: 20f;
+    reload: 20
     bullet: { 
       speed: 2.5
       lifetime: 45
