@@ -33,7 +33,7 @@ weapons: [
     healColor: team
 
     bullet: {
-      maxRange = 60
+      maxRange: 60
     }
   }
 ]
