@@ -1,0 +1,15 @@
+type: WallCrafter
+size: 1
+health: 20
+drillTime: 420
+attribute: sand
+rotateSpeed: 2
+category: production
+research: mini-drill
+researchCostMultiplier: 0.5
+requirements: [
+  magnesium/15
+]
+consumes: [
+		power: 0.08
+]
