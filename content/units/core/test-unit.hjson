@@ -22,13 +22,15 @@ weapons: [
     y: 1
     top: false
     reload: 10
-    repairSpeed: 3
-    fractionRepairSpeed: 0.05
+    repairSpeed: 0.05
+    fractionRepairSpeed: 0.001
     mirror: false
     targetUnits: false
     targetBuildings: true
     autoTarget: false
     controllable: true
+    laserColor: accent
+    healColor: accent
 
     bullet: {
       maxRange: 60
