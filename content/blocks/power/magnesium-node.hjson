@@ -10,7 +10,8 @@ maxNodes: 5
 requirements: [
     magnesium/10
 ]
-consumes: {
-    powerBuffered: 1000
+consumes: [
+    powerBuffered: 750
+]
 category: power
 research: magnetic-energy-separator
