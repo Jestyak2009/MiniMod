@@ -1,5 +1,6 @@
 type: UnitFactory
 category: units
+research: core-mini
 requirements: [
   magnesium/250
 ]
