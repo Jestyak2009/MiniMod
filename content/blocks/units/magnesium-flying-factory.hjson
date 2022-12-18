@@ -4,6 +4,7 @@ research: core-mini
 requirements: [
   magnesium/250
 ]
+researchCostMultiplier: 0.1
 size: 2
 configurable: false
 plans: [
