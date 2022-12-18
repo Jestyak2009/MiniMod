@@ -4,7 +4,7 @@ Mindustry
 
 Mod adds: 
 
-Units - 1
+Units - 2
 
 Items - 1
 
@@ -14,4 +14,4 @@ Planets - 1
 
 Schematics - 1
 
-Blocks - 11
+Blocks - 12

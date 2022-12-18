@@ -1,0 +1,24 @@
+speed: 3
+accel: 0.1
+drag: 0.05
+hitSize: 5
+flying: true
+health: 15
+engineOffset: 2
+itemCapacity: 5
+outlineColor: 000000
+weapons: [
+  {
+    y: 0
+    x: 1
+    reload: 10
+    bullet: { 
+      damege: 2
+      speed: 2.5
+      lifetime: 45
+      frontColor: 80a8ff
+      trailColor: 80a8ff
+      trailLength: 5
+    }
+  }
+]

@@ -1,0 +1,21 @@
+type: UnitFactory
+category: units
+research: core-mini
+requirements: [
+  magnesium/250
+]
+researchCostMultiplier: 0.1
+size: 2
+configurable: false
+plans: [
+  {
+    unit: t1
+    time: 1000
+    requirements: [
+      magnesium/50
+    ]
+  }
+]
+consumes: {
+  power: 1
+}

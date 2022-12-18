@@ -1,6 +1,8 @@
 type: flying
 flying: true
 controller: BuilderAI
+isEnemy: false
+targetPriority: -2
 hitSize: 5
 health: 10
 speed: 2
@@ -14,16 +16,24 @@ mineTier: 1
 outlineColor: 000000
 weapons: [
   {
+    type: RepairBeamWeapon
+    reload: 20
+    x: 0
+    y: 1
     top: false
-    x: 1
-    y: 0
     reload: 10
-    recoil: 3
+    repairSpeed: 0.05
+    fractionRepairSpeed: 0.001
+    mirror: false
+    targetUnits: false
+    targetBuildings: true
+    autoTarget: false
+    controllable: true
+    laserColor: accent
+    healColor: accent
+
     bullet: {
-      type: basicBulletType
-      damage: 2
-      speed: 3
-      lifetime: 40
+      maxRange: 60
     }
   }
 ]
