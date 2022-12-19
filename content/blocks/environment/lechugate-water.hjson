@@ -1,4 +1,4 @@
-type: ShallowLiquid
+type: Floor
 color: 495d70
 liquidDrop: water
 isLiquid: true
