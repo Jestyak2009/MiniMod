@@ -1,4 +1,4 @@
-type: liquid
+type: Floor
 color: 404f73
 liquidDrop: water
 isLiquid: true
