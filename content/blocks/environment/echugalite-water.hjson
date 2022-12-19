@@ -1,4 +1,5 @@
 type: ShallowLiquid
+color: 404f73
 liquidDrop: water
 isLiquid: true
 cacheLayer: water
