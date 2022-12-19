@@ -10,3 +10,11 @@ researchCostMultiplier: 0.1
 requirements: [
   magnesium/10
 ]
+liquidCapacity: 25
+consumes: [
+	liquid: [
+		liquid: water
+		amount: 0.3
+		booster: true
+		optional": true
+]

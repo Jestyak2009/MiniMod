@@ -1,11 +1,17 @@
 type: PowerNode
 health: 10
+baseExplosiveness: 2
 laserRange: 5
+hasPower: true
+outputsPower: true
 laserColor1: a488eb
 laserColor2: 5c5e9e
 maxNodes: 5
 requirements: [
     magnesium/10
+]
+consumes: [
+    powerBuffered: 750
 ]
 category: power
 research: magnetic-energy-separator
