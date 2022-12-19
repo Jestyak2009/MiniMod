@@ -1,5 +1,5 @@
 requirements: [
-magnesium/80
+  magnesium/80
 ]
 category: crafting
 craftEffect: smeltsmoke
@@ -8,18 +8,18 @@ craftTime: 150
 size: 1
 hasPower: true
 drawer: {
-type: DrawMulti
-drawers: [DrawDefault]
+  type: DrawMulti
+  drawers: [DrawDefault]
 }
 ambientSound: smelter
 ambientSoundVolume: 0.15
 consumes: {
-power: 0.33
-items: {
-items: [
-magnesium/1
-sand/6
-]
-}
+  power: 0.33
+  items: {
+    items: [
+      magnesium/1
+      sand/6
+    ]
+  }
 }
 research: mini-miller
