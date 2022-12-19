@@ -1,4 +1,4 @@
-type: ShallowLiquid
+type: liquid
 color: 404f73
 liquidDrop: water
 isLiquid: true
