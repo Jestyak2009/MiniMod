@@ -9,8 +9,17 @@ craftTime: 150
 size: 1
 hasPower: true
 drawer: {
-  type: DrawMulti
-  drawers: [DrawDefault]
+    type: DrawMulti
+    drawers: [
+        {
+            type: DrawDefault
+        }
+        {
+            type: DrawGlowRegion
+            suffix: -glow
+            color: ca70e6
+        }
+    ]
 }
 ambientSound: smelter
 ambientSoundVolume: 0.15
