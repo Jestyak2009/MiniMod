@@ -15,22 +15,24 @@ shootY: 3
 outlineColor: 000000
 
 shoot: {
-    shots: 4
-    spread: 0
-    shotDelay: 3
+  shots: 4
+  shotDelay: 3
 }
 
 ammoTypes: {
-    magnesium: {
-        damage: 1
-        speed: 6
-        height: 15
-        width: 10
-        lifetime: 20
-    }
+  magnesium: {
+    damage: 5
+    speed: 6
+    height: 15
+    width: 10
+    lifetime: 20
+    frontColor: a488eb
+    trailColor: a488eb
+    trailLength: 5
+  }
 }
 requirements: [
-    magnesium/10
+  magnesium/10
 ]
 category: turret
 research: core-mini
