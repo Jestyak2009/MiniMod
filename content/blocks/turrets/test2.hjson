@@ -17,12 +17,12 @@ hasPower: true
 
 drawer: {
   type: drawTurret
-  basePrefix: ci-
+  basePrefix: minimod-
   parts: [
     {
       type: RegionPart
       suffix: -side
-      moveX: 12
+      moveX: 6
       mirror: true
       progress: warmup
     }
