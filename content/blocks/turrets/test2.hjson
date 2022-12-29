@@ -9,11 +9,25 @@ recoil: 1.5
 size: 3
 health: 35
 AmmoPerShot: 1
-shootSound: pew
+shootSound: test
 shootY: 0
 outlineColor: 000000
 shake: 5
 hasPower: true
+
+drawer: {
+  type: drawTurret
+  basePrefix: ci-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      moveX: -12
+      mirror: true
+      progress: warmup
+    }
+  ]
+}
 
 consumes: {
   power: 4
