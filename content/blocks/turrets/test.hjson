@@ -19,6 +19,8 @@ shoot: {
   shotDelay: 3
 }
 
+shootSound: test
+
 ammoTypes: {
   magnesium: {
     damage: 5
