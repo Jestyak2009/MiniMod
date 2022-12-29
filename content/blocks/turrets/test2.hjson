@@ -22,7 +22,7 @@ drawer: {
     {
       type: RegionPart
       suffix: -side
-      moveX: -12
+      moveX: 12
       mirror: true
       progress: warmup
     }
