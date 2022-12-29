@@ -1,8 +1,8 @@
-type: ItemTurret
-reload: 25
-shootCone: 25
-rotateSpeed: 5
-targetGround: false
+type: PowerTurret
+reload: 15
+shootCone: 5
+rotateSpeed: 1.5
+targetGround: true
 targetAir: true
 range: 250
 recoil: 1.5
@@ -10,28 +10,49 @@ size: 3
 health: 35
 AmmoPerShot: 1
 shootSound: pew
-shootShake: 1
 shootY: 0
 outlineColor: 000000
+shake: 5
+hasPower: true
+
+consumes: {
+  power: 4
+}
 
 shoot: {
-    type: shootSpread
-    shots: 20
-    spread: 16
-    shotDelay: 1
+  firstShotDelay: 40
 }
 
-ammoTypes: {
-    magnesium: {
-        damage: 10
-        speed: 6
-        height: 15
-        width: 10
-        lifetime: 40
-    }
+shootType: {
+  hittable: false
+  damage: 55
+  width: 38
+  height: 80
+  speed: 6
+  lifetime: 40
+  frontColor: a488eb
+  trailColor: a488eb
+  drag: 0
+  trailLength: 50
+  hitShake: 10
+  despawnHit: true
+  splashDamageRadius: 35
+  splashDamage: 35
+  sprite: unused-content-sword
+  hitEffect: {
+    type: multiEffect
+    effects: [
+      {
+        type: WaveEffect
+        colorFrom: ffffff
+        colorTo: a488eb
+      }
+    ]
+  }
+  hitSound: largeExplosion
 }
 requirements: [
-    magnesium/25
+  magnesium/25
 ]
 category: turret
 research: test
