@@ -49,7 +49,7 @@ shootType: {
   despawnHit: true
   splashDamageRadius: 35
   splashDamage: 35
-  sprite: unused-content-sword
+  sprite: minimod-sword
   hitEffect: {
     type: multiEffect
     effects: [
