@@ -1,4 +1,4 @@
-type: PowerTurret
+type: ItemTurret
 reload: 40
 shootCone: 5
 rotateSpeed: 1.5
@@ -33,35 +33,37 @@ consumes: {
   power: 4
 }
 
-shootType: {
-  status: riven
-  type: MissileBulletType
-  hittable: false
-  damage: 55
-  width: 38
-  height: 80
-  speed: 6
-  lifetime: 40
-  frontColor: a488eb
-  trailColor: a488eb
-  drag: 0
-  trailLength: 50
-  hitShake: 10
-  despawnHit: true
-  splashDamageRadius: 35
-  splashDamage: 35
-  sprite: minimod-sword
-  hitEffect: {
-    type: multiEffect
-    effects: [
-      {
-        type: WaveEffect
-        colorFrom: ffffff
-        colorTo: a488eb
-      }
-    ]
+ammoTypes: {
+  magnesium: {
+    status: riven
+    type: MissileBulletType
+    hittable: false
+    damage: 55
+    width: 38
+    height: 80
+    speed: 6
+    lifetime: 40
+    frontColor: a488eb
+    trailColor: a488eb
+    drag: 0
+    trailLength: 50
+    hitShake: 10
+    despawnHit: true
+    splashDamageRadius: 35
+    splashDamage: 35
+    sprite: minimod-sword
+    hitEffect: {
+      type: multiEffect
+      effects: [
+        {
+          type: WaveEffect
+          colorFrom: ffffff
+          colorTo: a488eb
+        }
+      ]
+    }
+    hitSound: largeExplosion
   }
-  hitSound: largeExplosion
 }
 requirements: [
   magnesium/25
