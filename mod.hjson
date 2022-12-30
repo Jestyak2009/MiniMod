@@ -1,6 +1,8 @@
 name: minimod
 displayName: MiniMod
+subtitle: The mod is not ready.
 author: Jestyak2009
 description: Just little mod lol
 version: 1.0
+hideBrowser: true
 minGameVersion: 140.4
