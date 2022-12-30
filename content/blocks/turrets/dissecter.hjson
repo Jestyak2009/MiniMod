@@ -1,5 +1,5 @@
 type: PowerTurret
-reload: 15
+reload: 40
 shootCone: 5
 rotateSpeed: 1.5
 targetGround: true
@@ -31,10 +31,6 @@ drawer: {
 
 consumes: {
   power: 4
-}
-
-shoot: {
-  firstShotDelay: 40
 }
 
 shootType: {
