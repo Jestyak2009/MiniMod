@@ -1,0 +1,16 @@
+damage: 0.5
+speedMultiplier: 0.2
+dragMultiplier: 0.2
+disarm: true
+show: true
+hidden: false
+localizedName: Riven
+effect: {
+  type: ParticleEffect
+  lifetime: 30
+  length: 16
+  sizeFrom: 2
+  sizeTo: 0
+  colorFrom: a488eb
+  colorTo: a488eb
+}
