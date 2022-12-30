@@ -11,6 +11,7 @@ health: 35
 AmmoPerShot: 1
 shootSound: test
 shootY: 0
+heat color: a488eb
 outlineColor: 000000
 shake: 5
 hasPower: true
