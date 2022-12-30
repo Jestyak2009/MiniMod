@@ -12,6 +12,7 @@ AmmoPerShot: 1
 shootSound: shootBig
 shootShake: 1
 shootY: 3
+heatColor: a488eb
 outlineColor: 000000
 
 shoot: {
