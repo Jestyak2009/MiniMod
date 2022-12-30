@@ -4,7 +4,6 @@ dragMultiplier: 0.2
 disarm: true
 show: true
 hidden: false
-localizedName: Riven
 effect: {
   type: ParticleEffect
   lifetime: 30
