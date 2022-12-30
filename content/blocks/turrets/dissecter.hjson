@@ -26,6 +26,7 @@ drawer: {
       moveX: 6
       mirror: true
       progress: warmup
+      heatColor: a488eb
     }
   ]
 }
