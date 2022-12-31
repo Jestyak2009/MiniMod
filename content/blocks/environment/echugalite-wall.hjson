@@ -1,3 +1,5 @@
 type:StaticWall
 variants: 3
-attribute: sand
+attributes: {
+  sand: 1
+}
