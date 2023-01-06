@@ -1,0 +1,5 @@
+type: Floor
+color: 404738
+liquidDrop: water
+isLiquid: true
+cacheLayer: water
